@@ -20,5 +20,26 @@ curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-
 tar zxvf google-cloud-sdk-231.0.0-linux-x86_64.tar.gz google-cloud-sdk
 cd google-cloud-sdk
 ./google-cloud-sdk/install.sh
-gcloud init
+```
+### Init GCLOUD
+
+```
+gcloud services enable storage-api.googleapis.com
+gcloud services enable cloudresourcemanager.googleapis.com
+gcloud services enable compute.googleapis.com
+gcloud services enable container.googleapis.com
+gcloud services enable iam.googleapis.com
+
+gcloud iam service-accounts create terraform
+gcloud projects add-iam-policy-binding [PROJECT_ID] --member "serviceAccount:terraform@[PROJECT_ID].iam.gserviceaccount.com" --role "roles/owner"
+gcloud iam service-accounts keys create key.json --iam-account terraform@[PROJECT_ID].iam.gserviceaccount.com
+export GOOGLE_APPLICATION_CREDENTIALS="$PWD/key.json"
+
+```
+### GCS for Terraform State Files
+
+```
+gsutil mb -l us-east4 gs://intercorpchallenge-terraform-state
+
+
 ```
