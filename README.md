@@ -34,12 +34,9 @@ gcloud iam service-accounts create terraform
 gcloud projects add-iam-policy-binding [PROJECT_ID] --member "serviceAccount:terraform@[PROJECT_ID].iam.gserviceaccount.com" --role "roles/owner"
 gcloud iam service-accounts keys create key.json --iam-account terraform@[PROJECT_ID].iam.gserviceaccount.com
 export GOOGLE_APPLICATION_CREDENTIALS="$PWD/key.json"
-
 ```
 ### GCS for Terraform State Files
 
 ```
 gsutil mb -l us-east4 gs://intercorpchallenge-terraform-state
-
-
 ```
