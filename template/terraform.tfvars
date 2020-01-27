@@ -4,7 +4,7 @@ gcp_project_id = "intercorp-266323"
 cluster_name = "intercorp"
 
 # 
-gcp_location = "us-east"
+gcp_location = "us-east4"
 
 daily_maintenance_window_start_time = "03:00"
 
