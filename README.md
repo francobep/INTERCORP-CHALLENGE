@@ -43,5 +43,5 @@ gsutil mb -l us-east4 gs://intercorpchallenge-terraform-state
 ### Initialize Terraform 
 
 ```
-terraform init -backend-config=bucket=intercorpchallenge-terraform-state -backend-config=project=elegant-door-738
+terraform init -backend-config=bucket=intercorpchallenge-terraform-state
 ```
