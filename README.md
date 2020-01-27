@@ -31,8 +31,8 @@ gcloud services enable container.googleapis.com
 gcloud services enable iam.googleapis.com
 
 gcloud iam service-accounts create terraform
-gcloud projects add-iam-policy-binding elegant-door-738 --member "serviceAccount:terraform@elegant-door-738.iam.gserviceaccount.com" --role "roles/owner"
-gcloud iam service-accounts keys create key.json --iam-account terraform@elegant-door-738.iam.gserviceaccount.com
+gcloud projects add-iam-policy-binding intercorp-266323 --member "serviceAccount:terraform@intercorp-266323.iam.gserviceaccount.com" --role "roles/owner"
+gcloud iam service-accounts keys create key.json --iam-account terraform@intercorp-266323.iam.gserviceaccount.com
 export GOOGLE_APPLICATION_CREDENTIALS="$PWD/key.json"
 ```
 ### GCS for Terraform State Files
