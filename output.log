@@ -20,7 +20,6 @@ bindings:
   role: roles/owner
 etag: BwWdE77xWKU=
 version: 1
-
 #gcloud iam service-accounts keys create key.json --iam-account terraform@elegant-door-738.iam.gserviceaccount.com
 
 created key [96832a95a2804fdedb232f7fae47a9c7e38bfa58] of type [json] as [key.json] for [terraform@elegant-door-738.iam.gserviceaccount.com]

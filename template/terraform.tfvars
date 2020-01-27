@@ -1,10 +1,10 @@
 # 
-gcp_project_id = "elegant-door-738"
+gcp_project_id = "intercorp-266323"
 
 cluster_name = "intercorp"
 
 # 
-gcp_location = "us-east4"
+gcp_location = "us-east"
 
 daily_maintenance_window_start_time = "03:00"
 
