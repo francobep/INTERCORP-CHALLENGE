@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "elegant-door-738",
+  "private_key_id": "96832a95a2804fdedb232f7fae47a9c7e38bfa58",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC9MAPuhCUCZQZt\n6W/q8kpQ6jbgt8SHK1qOoRaNvwhV0WD5Ed2kRBDgXn3OaTVqufa13M5HhBkvyzub\nDyISZ1zgEvAwfDvKXkSABl3GEoMjI9IzqEB0f6jxw3/BXk3WGZBxF7Q79/SNaLz3\n4VCpyYJoyNe65XE+F6X2ejrrS/gVG8XMGTmcyhCop1J9G21wfAUjiJL2hRT1n7TS\nPuKgvEAdkx1mg+q5jQ9bNltQY+HAi6/CuIEItro3T21f6VlntGPT+K6MgJB7lUW4\nZxtYpvAHQCaujZ91pB8mZccWuPFMF4Gby5b/hE5bt3agIpCaXIQTHdlMYCzY0Dm9\nwczQ68pxAgMBAAECggEAWuT5zpvAqEDfcOlJ8yiLmgqdaSQBkSu8K3CrxFh26bxa\nCfCSe3yUWygq64PSvT8xkDjRBr0p2LOdJKeFqC/vCF0w9yqJE3ZtFNF6NlLonHZ2\nZIk+xnobMmTKOZ5UaTwJELzhxDoiTdp3h+TB+4EsXam5NDtOSBXWj/Az5J6wR3sm\n9jyZElaUqlEvyW45k3pl3z5mBbJ7+6bPTu3QITdlNCCS7DxjCBja7dw53GY/ctYP\n13f/1TLEakOQCcOEd37gCS+2ScirwhSPSNrBzZ2o9gsRVN6bO53EHeTMHLDXWFb0\nNTNs2PpKjw4R6MUr/SFgV3Mn4CUqYuiCp1Jr7X+vHQKBgQDytjCiT1d2MDeDUDfL\nzjXxbtTLc7nwkbGN7YNtGJoBh4L/25MOcxAT9JI+P+5yxq0+xDXr9eqZwpl4MTTK\nB2DYak/flbKUnVPwM8WsVssAkTMdf8j6uQ5eJSHI8JNv1J5HVS6dvaZiHiwOWBId\nWevlOQje15B2L9Teub/Jnsc7fwKBgQDHi6OzPShEhoULfUQAD+MeqQyeDbRSqLTd\nqmd6+IHOGUOYp2UAC37RvDpXD6DoXICFts9WoXzy1APJeq3HCVZJzvtT2bbwJXEf\nCIdcxqiJ8KPTg8u1OzcLt6d5vhIGb9pdTuamgOA6O2B0fpwsCzMR7AeZ7jJvl5mb\npzlL+J+yDwKBgQDpQ6SWOf7q/gg8UfpuC6/YbBZjusN3q+6jYyQu07gfxCdo05UQ\nDBHlu+ZZoYQAF2YlrtnL/7sLL/XjiBceG9094V8GmY7aOiKT9o4Cxh+wWdxwe4Gj\nRfvDC5je0ChDEGtWT03QGJcyMaFR3975CpUm5pvZ3/9dNzc1H/xtQAZm7QKBgFSY\nlqX+X3vtq6nbSWDdW2Q8NuUq2i/Q5hyziXtQr3c4rreg/+is9u7j5bfTIFxiGvqV\nLgGEJPytdY2NPO8MvlA8N8CspCnbNcH6U6i5b+pK4qlhTpNer0+AZLfwJKQl92Vn\nddFRAb6uPY4lvv/NH7GRZweTPD6i/rRGiLv0g39xAoGANh7a4GFoZQIMNZmVKof7\nl0cmSo/Vi+/ciMrHFPtWasJtx1+xQCyeHrLB9Vdi52/c0VKEnBeyclr7vau10jjO\n4jJFCelm4tsBWvWHIpEozpamzbbvHALkNkFRLsuH7XxnmgXmO0uVwP69ta/AW6p5\nIRnIP/AvlwyGFZeEMu4jURU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform@elegant-door-738.iam.gserviceaccount.com",
+  "client_id": "111763048156480998971",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40elegant-door-738.iam.gserviceaccount.com"
+}

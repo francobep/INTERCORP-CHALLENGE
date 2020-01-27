@@ -1,0 +1,28 @@
+gcloud projects add-iam-policy-binding elegant-door-738 --member "serviceAccount:terraform@elegan
+t-door-738.iam.gserviceaccount.com" --role "roles/owner"
+Updated IAM policy for project [elegant-door-738].
+bindings:
+- members:
+  - serviceAccount:service-125119493739@compute-system.iam.gserviceaccount.com
+  role: roles/compute.serviceAgent
+- members:
+  - serviceAccount:service-125119493739@container-engine-robot.iam.gserviceaccount.com
+  role: roles/container.serviceAgent
+- members:
+  - serviceAccount:125119493739-compute@developer.gserviceaccount.com
+  - serviceAccount:125119493739@cloudservices.gserviceaccount.com
+  - serviceAccount:elegant-door-738@appspot.gserviceaccount.com
+  - serviceAccount:service-125119493739@containerregistry.iam.gserviceaccount.com
+  role: roles/editor
+- members:
+  - serviceAccount:terraform@elegant-door-738.iam.gserviceaccount.com
+  - user:francobep@gmail.com
+  role: roles/owner
+etag: BwWdE77xWKU=
+version: 1
+
+#gcloud iam service-accounts keys create key.json --iam-account terraform@elegant-door-738.iam.gserviceaccount.com
+
+created key [96832a95a2804fdedb232f7fae47a9c7e38bfa58] of type [json] as [key.json] for [terraform@elegant-door-738.iam.gserviceaccount.com]
+
+export GOOGLE_APPLICATION_CREDENTIALS="$PWD/key.json"
