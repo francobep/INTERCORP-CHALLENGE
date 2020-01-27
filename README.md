@@ -45,3 +45,14 @@ gsutil mb -l us-east4 gs://intercorpchallenge-terraform-state
 ```
 terraform init -backend-config=bucket=intercorpchallenge-terraform-state
 ```
+### Validate Template
+
+```
+terraform Validate
+```
+
+### Create GKE Cluster 
+
+```
+terraform apply
+```
