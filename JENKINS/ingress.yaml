@@ -1,0 +1,17 @@
+---
+apiVersion: "extensions/v1beta1"
+kind: "Ingress"
+metadata:
+  name: "ingress-intercorp"
+  namespace: "default"
+spec:
+  backend:
+    serviceName: "front-service"
+    servicePort: 80
+  rules:
+  - http:
+      paths:
+      - path: "/back"
+        backend:
+          serviceName: "demo-service"
+          servicePort: 80
