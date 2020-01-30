@@ -1,0 +1,9 @@
+#FROM odavid/jenkins-jnlp-slave
+FROM gcr.io/intercorp-266323/jenkins-slave-jnlp1:docker
+RUN id
+RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.17.0/bin/linux/amd64/kubectl && chmod 777 /home/jenkins/kubectl && cp /home/jenkins/kubectl /bin/kubectl && cp /home/jenkins/kubectl /usr/local/bin/kubectl
+ENV PATH="$PATH:/usr/local/bin/kubectl"
+# For testing purpose only
+COPY empty-test-file /jenkins-slave1
+
+ENTRYPOINT ["jenkins-slave"]
